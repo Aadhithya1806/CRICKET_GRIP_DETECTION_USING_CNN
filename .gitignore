@@ -1,0 +1,62 @@
+ DATASETS/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python-specific cache files
+*.log
+*.sqlite3
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# pycache folders
+**/__pycache__/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+*.cover
+.coverage
+*.coveragerc
+.cache
+coverage.xml
+nosetests.xml
+*.spec
+
+# Testing
+test-results/
+junit-*.xml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
